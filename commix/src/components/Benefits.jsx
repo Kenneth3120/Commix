@@ -2,9 +2,9 @@ import { useState } from "react";
 import { benefits } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
-import Arrow from "../assets/svg/Arrow";
+import Arrow from "/public/assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
-import ClipPath from "../assets/svg/ClipPath";
+import ClipPath from "/public/assets/svg/ClipPath";
 
 const Benefits = () => {
   const [showAll, setShowAll] = useState(false);
